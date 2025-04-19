@@ -1,0 +1,328 @@
+
+#kitisuru{
+    width: 50%;
+    height: 98vh;
+    object-fit: cover;
+    opacity: 0.9;
+}
+#kilimani{
+    width: 50%;
+    height: 98vh;
+    /* object-fit: cover; */
+    opacity: 0.9;
+}
+.menu-images{
+    display: flex;
+}
+.kitisuru-menu{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+   opacity: 1.0;
+    max-width: 20%; max-height: 20
+}
+.kitisuru-menu p{
+    color: orange;
+    font-size: 2em;
+}
+.kitisuru-menu a{
+    text-decoration: none;
+    color: white;
+}
+.kitisuru-menu h1{
+    font-size: 4em;
+}
+.kilimani-menu{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+   opacity: 1.0;
+    max-width: 20%; max-height: 20
+}
+.kilimani-menu p{
+    color: orange;
+    font-size: 2em;
+}
+.kilimani-menu a{
+    text-decoration: none;
+    color: white;
+}
+.kilimani-menu h1{
+    font-size: 4em;
+}
+/* #table-cloth{
+    object-fit: cover;
+    width: 197vh; height: 99vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+} */
+ /* .kitisuru-image{
+
+ } */
+
+#ankole-kitisuru{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    
+    max-width: 20%; max-height: 20%; 
+}
+.kiti-menu{
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    
+    max-width: 20%; max-height: 20%; 
+}
+.kiti-menu h3{
+    color: white;
+    font-size: 2em;
+}
+.kiti-menu h1{
+    color: orangered;
+    font-size: 3em;
+}
+.breakfast{
+    display: flex;
+    gap: 38em;
+}
+#lunch{
+    height: 5em; width: 5em;
+}
+.grilled-gyro{
+    display: flex;
+}
+.lunches{
+    display: flex;
+    gap: 3em;
+}
+.lunch-prices{
+    line-height: 3.5em;
+}
+.drinks{
+    display: flex;
+    gap: 42em;
+}
+.menu-nav ul{
+    display: flex;
+    gap: 5em;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: gray;
+}
+.menu-nav li{
+    list-style-type: none;
+}
+.menu-container{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 1.5em;
+}
+#cuisines{
+    color: orangered;
+}
+.ankole-menu{
+    position: absolute;
+    /* z-index: 1; */
+    transform: translate(-50%, -50%);
+    top: 30%; left: 50%;height: 3cm; height: 3cm;
+}
+.ankole-menu img{
+    height: 15em;
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 5em;
+    list-style-type: none;
+    border: solid 2px grey; 
+    width: 27cm; 
+    height: 1.5cm;
+    border-radius: 2em;
+    background-color: rgb(10, 9, 9);
+    position: absolute;
+    top: 90%;left: 20%;
+   
+}
+.navigation-bar a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+/* #reservation-btn{
+    border-radius: 1em;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+} */
+#whatsapp-icon i{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+}
+#fb-ig-icons{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+}
+.kitisuru-image{
+    background-image: url('/images/menuImage.jpg');
+    width: 50%; height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+}
+.menu-items{
+   height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+.foods{
+    overflow: scroll;
+    width: 50%;
+}
+.navigation-bar-kitisuru ul{
+    display: flex;
+    gap: 3em;
+    list-style-type: none;
+    border: solid 2px grey; 
+    width: 20cm; 
+    height: 1.5cm;
+    border-radius: 2em;
+    background-color: rgb(10, 9, 9);
+    position: absolute;
+    top: 90%;left: 2%;
+   
+}
+.navigation-bar-kitisuru a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+@media screen and (max-width: 500px){
+    #kitisuru{
+        width: 100%;
+        height: 98vh;
+        object-fit: cover;
+        opacity: 0.9;
+    }
+    #kilimani , #kitisuru{
+        width: 100%;
+        height: 50vh;
+        /* object-fit: cover; */
+        opacity: 0.9;
+    }
+    .menu-images{
+        flex-direction: column;
+    }
+    .kitisuru-menu{
+        position: absolute;
+        z-index: 1;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+       opacity: 1.0;
+        max-width: 20%; max-height: 20
+    }
+    .kitisuru-menu p{
+        color: orange;
+        font-size: 1.5em;
+    }
+    .kitisuru-menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .kitisuru-menu h1{
+        font-size: 2em;
+    }
+    .kilimani-menu{
+        position: absolute;
+        z-index: 1;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+       opacity: 1.0;
+        max-width: 20%; max-height: 20
+    }
+    .kilimani-menu p{
+        color: orange;
+        font-size: 1.5em;
+    }
+    .kilimani-menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .kilimani-menu h1{
+        font-size: 2em;
+    }
+    #ankole{
+        max-width: 10em;
+        position: absolute;
+        top: -140%;
+        right: 50%;
+    }
+    .navigation-bar ul{
+        display: flex;
+        gap: .5em;
+        list-style-type: none;
+        border: solid 2px grey; 
+        width: 9cm; 
+        height: 1cm;
+        border-radius: 2em;
+        background-color: rgb(10, 9, 9);
+        position: absolute;
+        top: 90%;left: 2%;
+       
+    }
+    .navigation-bar a{
+        text-decoration: none;
+        font-size: .75em;
+        color: white;
+    }
+    #whatsapp-icon i{
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* object-fit: contain; */
+        padding: 1em;
+        color: white;
+    }
+    #fb-ig-icons{
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        padding: 2em;
+        color: white;
+    }
+}

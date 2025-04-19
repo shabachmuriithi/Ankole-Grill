@@ -1,0 +1,132 @@
+.contact-kilimani{
+    border: solid 4px white;
+    width: 20%;
+    color: white;
+}
+
+.contact-kitisuru p a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.contact-kilimani p a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.get-in-touch{
+    text-align: center;
+    display: flex;
+    gap: 5em;
+    
+}
+#contact-image img{
+    
+    width: 100%; height: 98vh;
+    object-fit: fill;
+}
+.contact-kitisuru{
+   
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+}
+.contact-kilimani{
+   
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+}
+#cont-ankole{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+    max-width: 20em; max-height: 20em;
+}
+.contact-kitisuru{
+    border: solid 4px white;
+    width: 20%;
+    color: white;
+    
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 5em;
+    list-style-type: none;
+    border: solid 2px grey; 
+    width: 27cm; 
+    height: 1.5cm;
+    border-radius: 3em;
+    background-color: rgb(10, 9, 9);
+    padding-top: 1em;
+   
+}
+.navigation-bar a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+.menu-bar{
+    width: 3em;
+    height: .25em;
+    background-color: white;
+    margin: 5px 0;
+    color: white;
+}
+.navigation-bar{
+    
+    
+    border-radius: 2em;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+    max-width: 20%; max-height: 20%;
+  
+}
+
+#whatsapp-icon i{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 4.5em;
+}
+#fb-ig-icons{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 1.5em;
+}
+.body{
+    overflow: hidden;
+}
+
+
+

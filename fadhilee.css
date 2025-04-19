@@ -1,0 +1,227 @@
+.event-details{
+    display: flex;
+    color: white;
+    margin-top: 40em;
+    gap: 5em;
+}
+.fadhilee-live{
+    background-image: url('/images/fadhilee.jpg');
+   background-size: cover;
+    height: 200vh;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    position: relative;
+    
+}
+.ankole-fadhilee img{
+    width: 20em;
+}
+.ankole-fadhilee h1{
+ 
+    font-size: 3em;
+    
+}
+.ankole-fadhilee h3{
+  
+    font-size: 2em;
+}
+.ankole-fadhilee{
+    color: white;
+}
+#acoustic{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+}
+.event-details a{
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+}
+.featuring{
+    margin-top: 5em;
+    font-size: 3em;
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 5em;
+    list-style-type: none;
+    border: solid 2px grey; 
+    width: 27cm; 
+    height: 1.5cm;
+    border-radius: 3em;
+    background-color: rgb(10, 9, 9);
+    padding-top: 1em;
+   
+}
+.navigation-bar a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+.menu-bar{
+    width: 3em;
+    height: .25em;
+    background-color: white;
+    margin: 5px 0;
+    color: white;
+}
+.navigation-bar{
+    
+    
+    border-radius: 2em;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+    max-width: 20%; max-height: 20%;
+  
+}
+/* #reservation-btn{
+    border-radius: 1em;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+} */
+#whatsapp-icon i{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 4.5em;
+}
+#fb-ig-icons{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 1.5em;
+}
+.film{
+    opacity: .5;
+    
+}
+@media screen and(max-width: 500px) {
+    .event-details{
+        display: flex;
+        color: white;
+        margin-top: 1em;
+        gap: 1em;
+    }
+    .fadhilee-live{
+        background-image: url('/images/fadhilee.jpg');
+       background-size: cover;
+        height: 200vh;
+     
+        background-position: center;
+        position: relative;
+        
+    }
+    .ankole-fadhilee img{
+        width: 5em;
+    }
+    .ankole-fadhilee h1{
+     
+        font-size: 1em;
+        
+    }
+    .ankole-fadhilee h3{
+      
+        font-size: 2em;
+    }
+    .ankole-fadhilee{
+        color: white;
+    }
+    #acoustic{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .event-details a{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+    }
+    .featuring{
+        margin-top: 5em;
+        font-size: 3em;
+    }
+    .navigation-bar ul{
+        display: flex;
+        gap: 5em;
+        list-style-type: none;
+        border: solid 2px grey; 
+        width: 10cm; 
+        height: 1cm;
+        border-radius: 3em;
+        background-color: rgb(10, 9, 9);
+        padding-top: 1em;
+       
+    }
+    .navigation-bar a{
+        text-decoration: none;
+        font-size: .7em;
+        color: white;
+    }
+    .menu-bar{
+        width: 3em;
+        height: .25em;
+        background-color: white;
+        margin: 5px 0;
+        color: white;
+    }
+    .navigation-bar{
+        
+        
+        border-radius: 2em;
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        opacity: 1.0;
+        max-width: 20%; max-height: 20%;
+      
+    }
+
+    #whatsapp-icon i{
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        padding: 2em;
+        color: white;
+        font-size: 4.5em;
+    }
+    #fb-ig-icons{
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        padding: 2em;
+        color: white;
+        font-size: 1.5em;
+    }
+    .film{
+        opacity: .5;
+        
+    }
+}

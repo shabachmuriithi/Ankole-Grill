@@ -1,0 +1,106 @@
+.reservation-form input{
+    padding: 2em;
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin-left: 1em;
+}
+#submit{
+    padding: 2em;
+    width: 92%;
+    border-radius: 2em;
+}
+.reservation-form{
+    background-color: black;
+    width: 50%;
+    height: 98vh;
+    line-height: 2em;
+ 
+}
+#location-select{
+    width: 93%;
+    padding: 2em;
+    background-color: black;
+    color: white;
+    margin-left: 1em;
+}
+.reservation-form label{
+    color: white;
+    margin-left: 1em;
+   
+}
+.reservation-right{
+    background-image: url(images/reservation.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    /* height: 100%; */
+    height: 98vh;
+    background-size: cover;
+    text-align: center;
+}
+.booking{
+    display: flex;
+    width: 100%;
+    height: 98vh;
+    /* overflow: hidden; */
+    position: fixed;
+}
+.reservation-right p{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+.reservation-right h1{
+    color: orangered;
+    font-size: 3em;
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 5em;
+    list-style-type: none;
+    border: solid 2px grey; 
+    width: 27cm; 
+    height: 1.5cm;
+    border-radius: 3em;
+    background-color: rgb(10, 9, 9);
+    padding-top: 1em;
+   
+}
+.navigation-bar a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+.menu-bar{
+    width: 3em;
+    height: .25em;
+    background-color: white;
+    margin: 5px 0;
+    color: white;
+}
+.navigation-bar{
+    
+    
+    border-radius: 2em;
+    position: fixed;
+    z-index: 1;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+    max-width: 20%; max-height: 20%;
+  
+}
+
+#whatsapp-icon i{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 4.5em;
+}

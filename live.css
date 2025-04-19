@@ -1,0 +1,472 @@
+.tukatike img{
+    width: 15em;
+    margin-left: 9em;
+}
+.tukatike h1{
+    color: orangered;
+    font-size: 5em;
+    margin-left: 3em;
+}
+.event-details img{
+    width: 5em;
+}
+.performers{
+    display: flex;
+    border: solid 1em palevioletred;
+    border-radius: 1em; 
+    width: 30em;
+    gap: 1em;
+    background-image: url('/images/fadhilee.jpg');
+    background-size: 30em;
+   background-repeat: no-repeat;
+   color: white;
+   font-weight: bold;
+   transition: transform 0.3 ease;
+   margin-top: 2em;
+}
+.performers :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.event-details h1{
+    font-size: small;
+}
+.featuring h1{
+    font-size: medium;
+}
+.featuring h2{
+    font-size: medium;
+}
+.featuring{
+    margin-top: 4em;
+}
+.event-details a{
+    text-decoration: none;
+    color: white;
+}
+.event-details img{
+    width: 5em;
+}
+.performers-mushrooms{
+    display: flex;
+    border: solid 1em navy; 
+    border-radius: 1em;
+    width: 30em;
+    gap: 1em;
+    background-image: url('/images/mushrooms.jpg');
+    background-size: 30em;
+   background-repeat: no-repeat;
+   color: white;
+   font-weight: bold;
+   transition: transform 0.3 ease;
+   margin-top: 3em;
+}
+.performers-mushrooms :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.event-details-mushrooms h1{
+    font-size: small;
+}
+.featuring-mushrooms h1{
+    font-size: medium;
+}
+.featuring-mushrooms h2{
+    font-size: medium;
+}
+.featuring-mushrooms{
+    margin-top: 4em;
+}
+.event-details-mushrooms a{
+    text-decoration: none;
+    color: white;
+}
+.event-details-mushrooms img{
+    width: 5em;
+}
+.performers-muguna{
+    display: flex;
+    border: solid 1em orange; 
+    border-radius: 1em;
+    width: 30em;
+    gap: 1em;
+    background-image: url('/images/muguna.jpg');
+    background-size: 30em;
+   background-repeat: no-repeat;
+   color: white;
+   font-weight: bold;
+   transition: transform 0.7 ease;
+   margin-top: 5em;
+   
+}
+.performers-muguna :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+}
+.event-details-muguna h1{
+    font-size: small;
+}
+.featuring-muguna h1{
+    font-size: medium;
+}
+.featuring-muguna h2{
+    font-size: medium;
+}
+.featuring-muguna{
+    margin-top: 4em;
+}
+.event-details-muguna a{
+    text-decoration: none;
+    color: white;
+    
+}
+.event-details-muguna img{
+    width: 5em;
+}
+.live-events{
+    display: flex;
+    gap: 55em;
+    background-image: url('/images/african-drum.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    
+}
+.them-mushrooms{
+    display: flex;
+    gap: 5em;
+
+}
+.fadhilee{
+    display: flex;
+    gap: 5em;
+}
+.muguna{
+    display: flex;
+    gap: 5em;
+}
+#date{
+    color: orangered;
+    font-size: 1.5 em;
+}
+#place{
+    font-size: 2em;
+    color: white;
+}
+.tukatike p{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 9em;
+    margin-top: 10em;
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 5em;
+    list-style-type: none;
+    border: solid 2px grey; 
+    width: 27cm; 
+    height: 1.5cm;
+    border-radius: 3em;
+    background-color: rgb(10, 9, 9);
+    padding-top: 1em;
+   
+}
+.navigation-bar a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+.menu-bar{
+    width: 3em;
+    height: .25em;
+    background-color: white;
+    margin: 5px 0;
+    color: white;
+}
+.navigation-bar{
+    
+    
+    border-radius: 2em;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+    max-width: 20%; max-height: 20%;
+  
+}
+/* #reservation-btn{
+    border-radius: 1em;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+} */
+#whatsapp-icon{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 2.5em;
+}
+#fb-ig-icons{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    padding: 2em;
+    color: white;
+    font-size: 1.5em;
+}
+@media screen and (max-width: 500px){
+    .tukatike img{
+        width: 8em;
+        margin-left: 9em;
+    }
+    .tukatike h1{
+        color: orangered;
+        font-size: 5em;
+        margin-left: 2em;
+        font-size: 3em;
+    }
+    .tukatike p{
+        font-size: .7em;
+     
+    }
+    .event-details img{
+        width: 3em;
+    }
+    .performers{
+        display: flex;
+        border: solid 1em palevioletred;
+        border-radius: 1em; 
+        width: 15em;
+        gap: 1em;
+        background-image: url('/images/fadhilee.jpg');
+        background-size: 35em;
+       background-repeat: no-repeat;
+       color: white;
+       font-weight: bold;
+       transition: transform 0.3 ease;
+       margin-top: .2em;
+    }
+    .performers :hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .event-details h1{
+        font-size: small;
+    }
+    .featuring h1{
+        font-size: medium;
+    }
+    .featuring h2{
+        font-size: medium;
+    }
+    .featuring{
+        margin-top: 4em;
+    }
+    .event-details a{
+        text-decoration: none;
+        color: white;
+    }
+    .event-details img{
+        width: 5em;
+    }
+    .performers-mushrooms{
+        display: flex;
+        border: solid 1em navy; 
+        border-radius: 1em;
+        width: 15em;
+        gap: 1em;
+        background-image: url('/images/mushrooms.jpg');
+        background-size: 35em;
+       background-repeat: no-repeat;
+       color: white;
+       font-weight: bold;
+       transition: transform 0.3 ease;
+       margin-top: 3em;
+    }
+    .performers-mushrooms :hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .event-details-mushrooms h1{
+        font-size: small;
+    }
+    .featuring-mushrooms h1{
+        font-size: medium;
+    }
+    .featuring-mushrooms h2{
+        font-size: medium;
+    }
+    .featuring-mushrooms{
+        margin-top: 4em;
+    }
+    .event-details-mushrooms a{
+        text-decoration: none;
+        color: white;
+    }
+    .event-details-mushrooms img{
+        width: 5em;
+    }
+    .performers-muguna{
+        display: flex;
+        border: solid 1em orange; 
+        border-radius: 1em;
+        width: 15em;
+        gap: 1em;
+        background-image: url('/images/muguna.jpg');
+        background-size: 20em;
+        height: 20em;
+       background-repeat: no-repeat;
+       color: white;
+       /* font-weight: bold; */
+       transition: transform 0.7 ease;
+       margin-top: 5em;
+       
+    }
+    .performers-muguna :hover{
+        transform: scale(1.05);
+        cursor: pointer;
+        -webkit-transform: scale(1.1);
+    }
+    .event-details-muguna h1{
+        font-size: small;
+    }
+    .featuring-muguna h1{
+        font-size: medium;
+    }
+    .featuring-muguna h2{
+        font-size: medium;
+    }
+    .featuring-muguna{
+        margin-top: 4em;
+    }
+    .event-details-muguna a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    .event-details-muguna img{
+        width: 5em;
+    }
+    .live-events{
+        flex-wrap: wrap;
+        gap: 55em;
+        background-image: url('/images/african-drum.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 98vh;
+        
+    }
+    .them-mushrooms{
+        flex-wrap: wrap;
+        gap: .3em;
+        position: absolute;
+        top: 32%;
+    
+    }
+    .fadhilee{
+        display: flex;
+        gap: .5em;
+        position: absolute;
+        top: 2%;
+    }
+    .muguna{
+        display: flex;
+        /* gap: 5em; */
+        position: absolute;
+        top: 63%;
+    }
+    #date{
+        color: orangered;
+        font-size: 1.5 em;
+    }
+    #place{
+        font-size: .9em;
+        color: white;
+    }
+    .tukatike p{
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        margin-left: 9em;
+        /* margin-top: 10em; */
+    }
+    .navigation-bar ul{
+        display: flex;
+        gap: 2em;
+        list-style-type: none;
+        border: solid 2px grey; 
+        width: 9.5cm; 
+        height: 1cm;
+        border-radius: 3em;
+        background-color: rgb(10, 9, 9);
+        padding-top: 1em;
+       
+    }
+    .navigation-bar a{
+        text-decoration: none;
+        font-size: .4em;
+        color: white;
+    }
+    .menu-bar{
+        width: 3em;
+        height: .25em;
+        background-color: white;
+        margin: 5px 0;
+        color: white;
+    }
+    .navigation-bar{
+        
+        
+        border-radius: 2em;
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        opacity: 1.0;
+        max-width: 20%; max-height: 20%;
+      
+    }
+    /* #reservation-btn{
+        border-radius: 1em;
+        background-color: gray;
+        cursor: pointer;
+        border: none;
+    } */
+    #whatsapp-icon{
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        padding: 2em;
+        color: white;
+        font-size: 1em;
+    }
+    #fb-ig-icons{
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        padding: 2em;
+        color: white;
+        font-size: 1.5em;
+    }
+}
