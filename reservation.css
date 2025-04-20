@@ -104,70 +104,73 @@
     color: white;
     font-size: 4.5em;
 }
-@media screen and(max-width: 500px) {
+@media screen and (max-width: 500px){
     .reservation-form input{
-        padding: 2em;
-        width: 90%;
+       
+        width: 68%;
         background-color: black;
         color: white;
-        margin-left: 1em;
+      
     }
     #submit{
-        padding: 2em;
+        
         width: 92%;
         border-radius: 2em;
     }
     .reservation-form{
         background-color: black;
-        width: 50%;
-        height: 98vh;
-        line-height: 2em;
+        width: 100%;
+        height: auto;
+      
      
     }
     #location-select{
-        width: 93%;
-        padding: 2em;
+        width: 75%;
+       
         background-color: black;
         color: white;
         margin-left: 1em;
     }
     .reservation-form label{
         color: white;
-        margin-left: 1em;
+      
        
     }
     .reservation-right{
         background-image: url(images/reservation.jpg);
-        width: 50%;
+        width: 100%;
         background-repeat: no-repeat;
-        /* height: 100%; */
-        height: 98vh;
+        position: relative;
+        height: 50vh;
         background-size: cover;
         text-align: center;
     }
     .booking{
-        flex-wrap: wrap;
-        width: 100%;
-        height: 50vh;
-        /* overflow: hidden; */
+        flex-direction: column;
+        position: relative;
+        height: auto;
+       
         
     }
     .reservation-right p{
         color: white;
-        font-size: 3em;
+        font-size: 2em;
         font-weight: bold;
     }
     .reservation-right h1{
         color: orangered;
-        font-size: 3em;
+        font-size: 2em;
+    }
+    .reservation-right img{
+        width: 10em;
     }
     .navigation-bar ul{
         display: flex;
-        gap: 5em;
+        gap: .5em;
         list-style-type: none;
         border: solid 2px grey; 
-        width: 27cm; 
-        height: 1.5cm;
+        width: 5cm; 
+        height: 1cm;
         border-radius: 3em;
         background-color: rgb(10, 9, 9);
         padding-top: 1em;
@@ -175,7 +178,7 @@
     }
     .navigation-bar a{
         text-decoration: none;
-        font-size: 1.25em;
+        font-size: .7em;
         color: white;
     }
     .menu-bar{
@@ -206,12 +209,17 @@
         top: 90%;
         left: 90%;
         transform: translate(-50%, -50%);
-        object-fit: contain;
-        padding: 2em;
+       
+        
         color: white;
-        font-size: 4.5em;
+        font-size: 2em;
     }
     #hidden a{
         display: none;
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+        
     }
 }
