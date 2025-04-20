@@ -249,7 +249,7 @@
         display: flex;
         border: solid 1em palevioletred;
         border-radius: 1em; 
-        width: 15em;
+        width: 25em;
         gap: 1em;
         background-image: url('/images/fadhilee.jpg');
         background-size: 35em;
@@ -286,7 +286,7 @@
         display: flex;
         border: solid 1em navy; 
         border-radius: 1em;
-        width: 15em;
+        width: 25em;
         gap: 1em;
         background-image: url('/images/mushrooms.jpg');
         background-size: 35em;
@@ -323,11 +323,11 @@
         display: flex;
         border: solid 1em orange; 
         border-radius: 1em;
-        width: 15em;
+        width: 25em;
         gap: 1em;
         background-image: url('/images/muguna.jpg');
-        background-size: 20em;
-        height: 20em;
+        background-size: 34em;
+        height: 22em;
        background-repeat: no-repeat;
        color: white;
        /* font-weight: bold; */
@@ -366,27 +366,28 @@
         background-image: url('/images/african-drum.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 98vh;
+        height: 150vh;
+        background-position: center;
         
     }
     .them-mushrooms{
         flex-wrap: wrap;
         gap: .3em;
         position: absolute;
-        top: 32%;
+        top: 60%;
     
     }
     .fadhilee{
-        display: flex;
+        flex-wrap: wrap;
         gap: .5em;
         position: absolute;
-        top: 2%;
+        top: 22%;
     }
     .muguna{
-        display: flex;
-        /* gap: 5em; */
+        flex-wrap: wrap;
+        gap: 3em;
         position: absolute;
-        top: 63%;
+        top: 100%;
     }
     #date{
         color: orangered;
@@ -467,6 +468,6 @@
         object-fit: contain;
         padding: 2em;
         color: white;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }

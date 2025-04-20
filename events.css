@@ -300,12 +300,12 @@
         position: absolute;
         z-index: 1;
         top: 90%;
-        left: 90%;
+        left: 89%;
         transform: translate(-50%, -50%);
         object-fit: contain;
         padding: 2em;
         color: white;
-        font-size: 4em;
+        font-size: 2em;
     }
     #fb-ig-icons {
         position: absolute;
@@ -331,7 +331,7 @@
     
     .navigation-bar ul{
         display: flex;
-        gap: 3em;
+        gap: 1em;
         list-style-type: none;
         border: solid 2px grey; 
         width: 9cm; 
